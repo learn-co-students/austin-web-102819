@@ -9,9 +9,9 @@
   * `#map`
   * `#select`
   * `#find`
-* Differentiate array methods by their respective return values
+* Differentiate array methods by your respective return values
 * Define the Single Responsibility Principle
-* Employ test-driven development best practices in their labs
+* Employ test-driven development best practices in your labs
   * `rspec --fail-fast` handle one error at a time
   * Red, Green, Refactor
   * Make it work (shameless green), make it right, make it fast
@@ -45,7 +45,7 @@ The first method you will define is called `game_hash`. This method contains and
   * `:blocks`
   * `:slam_dunks`
 
-Use the following data to populate your `game_hash` as outlined above. Remember to run `learn` to see what the tests expect.
+Use the following data to populate your `game_hash` as outlined above. Remember to run `rspec` to see what the tests expect.
 
 Home Team:
 
@@ -104,7 +104,7 @@ Now that we understand how we are going to operate on the `game_hash` inside of 
 
 ### Iterating through Nested Levels:
 
-This lab requires us to iterate through the many levels of our nested hash. DON'T TAKE YOUR UNDERSTANDING OF YOUR HASH FOR GRANTED. Every time you iterate into a new level of the hash, immediately place a `binding.pry` there. Then, run RSpec with the `learn` command to see what the key/value pairs of that hash are.
+This lab requires us to iterate through the many levels of our nested hash. DON'T TAKE YOUR UNDERSTANDING OF YOUR HASH FOR GRANTED. Every time you iterate into a new level of the hash, immediately place a `binding.pry` there. Then, run RSpec with the `rspec` command to see what the key/value pairs of that hash are.
 
 Let's take a look at an example:
 
@@ -181,4 +181,4 @@ Define methods to return the answer to the following questions:
 
 * [Codecademy](http://www.codecademy.com/dashboard) - [A Night at the Movies](http://external.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/advanced-hashes-hashketball'>Hashketball</a> on Learn.co and start learning to code for free.</p>
+  <p class='util--hide'>View <a href='https://learn.co/lessons/advanced-hashes-hashketball'>Hashketball</a> on Learn.co</p>
