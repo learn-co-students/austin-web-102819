@@ -28,3 +28,5 @@ Write an implementation of a bank account that meets the following requirements:
 * can withdraw money from the account
 * keeps track of the account number
 * keeps track of the customer id of the account
+
+[Lecture Video](https://youtu.be/-ObMkdA675w)

@@ -16,3 +16,5 @@ We've learned how to create singular models, but it is time to take the next ste
 - Create an `Account` class variable `all` and the method `#all` that returns an array of all instances of `Account`.
 - Add `bank` attribute to the Account class.
 - Create an `#add_account` method to the `Bank` class.
+
+[Lecture Video](https://youtu.be/pDHNaQhoIU0)

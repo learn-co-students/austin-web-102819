@@ -3,7 +3,8 @@ class BankAccount
     # Instance is 1
     # vanessa_account.user_id
     # Username cannot be get or set without adding it to this line 
-    attr_accessor :user_id, :balance
+    attr_accessor :balance
+    attr_reader :user_id
 
     # @@ is for class variables
     # ex Yellow-Headed-Soldier

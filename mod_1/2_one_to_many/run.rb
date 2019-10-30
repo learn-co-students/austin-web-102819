@@ -10,6 +10,7 @@ bank_1 = Bank.new("Chase")
 bank_2 = Bank.new("Citi")
 
 bank_1.add_account("975397459745", "Vanessa", "Burroughs")
+bank_2.add_account("935975497456", "G", "F")
 
 bank_1.accounts
 
