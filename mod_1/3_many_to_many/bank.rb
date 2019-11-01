@@ -9,6 +9,9 @@ class Bank
         @interest_rate = 5.5
     end
 
+    def add_user(first_name, last_name)
+        User.new(first_name, last_name, self)
+    end
 
     def add_account(account_number, user)
         new_account = Account.new(account_number, self, user)

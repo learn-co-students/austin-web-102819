@@ -15,6 +15,8 @@ A Bank has many Accounts
 Ending Relationship:
 
 - A Bank has many Users
+  * User belongs to a Bank (store Bank in User class)
 - A User has many Accounts
-
+  * Account belongs to User (store User in Account class)
 - A Bank has many Accounts through Users
+  * Account belongs to Bank (store bank in Account class)

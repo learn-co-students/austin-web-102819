@@ -1,5 +1,7 @@
 require "pry"
 require_relative "bank"
+require_relative "user"
+require_relative "account"
 
 
 # One Bank has many Accounts
@@ -9,10 +11,18 @@ require_relative "bank"
 bank_1 = Bank.new("Chase")
 bank_2 = Bank.new("Citi")
 
-bank_1.add_account("975397459745", "Vanessa", "Burroughs")
-bank_2.add_account("935975497456", "G", "F")
+# 2 ways to add a user
+rachel = User.new("Rachel", "F", bank_1)
+mason = bank_2.add_user("Mason", "W")
 
-bank_1.accounts
+# 2 ways to add an Account
+# Call Account directly vs through Bank
+Account.new("97348934y78934", bank_1, rachel)
+bank_2.add_account("8643864386734", mason);
+
+
+
+# bank_1.accounts
 
 # account_1 = Account.new("9439759745", "Vanessa", "Burroughs", "chase")
 
