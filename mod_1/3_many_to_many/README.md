@@ -20,3 +20,6 @@ Ending Relationship:
   * Account belongs to User (store User in Account class)
 - A Bank has many Accounts through Users
   * Account belongs to Bank (store bank in Account class)
+
+
+  [Lecture Video](https://youtu.be/z1c_SMhFkxc)
