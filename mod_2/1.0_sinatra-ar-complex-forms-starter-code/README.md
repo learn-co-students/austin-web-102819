@@ -1,4 +1,4 @@
-## Sinatra
+## Sinatra & Active Record
  
 ### Deliverables
  
