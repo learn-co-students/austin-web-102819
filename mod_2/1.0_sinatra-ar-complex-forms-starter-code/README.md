@@ -1,4 +1,4 @@
-## Sinatra & Active Record
+## Sinatra Forms & Associated Objects
  
 ### Deliverables
  
