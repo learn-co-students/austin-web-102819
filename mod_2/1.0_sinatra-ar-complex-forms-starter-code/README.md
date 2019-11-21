@@ -29,6 +29,6 @@ As a site visitor, I should be able to see a form where I create a book. When I 
 
     - Show a form to the user => GET '/books/new"
 
-    - Create a new book after the submit from the form => POST '/books/??"
+    - Create a new book after the submit from the form => POST '/books"
  
  
