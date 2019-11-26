@@ -1,0 +1,12 @@
+<%= form_with model: @candy do |f| %>
+ <%= f.label "Candy Name: " %>
+ <%= f.text_field :name %>
+
+ <%= f.label "Type: " %>
+ <%= f.text_field :candy_type %>
+
+ <%= f.label "User: " %>
+ <%= f.collection_select :user_id, @users, :id, :name %>
+
+ <%= f.submit %>
+<% end %>

@@ -1,0 +1,9 @@
+<h2><%= @user.name %></h2>
+
+<ul>
+  <% @user.candies.each do |candy| %>
+    <li>
+      <%= link_to candy.name, candy %>
+    </li>
+  <% end %>
+</ul>
