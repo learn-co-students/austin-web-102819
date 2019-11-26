@@ -8,6 +8,9 @@ For our app, we're creating candies and users. A user `has_many` candies, and a 
 
 - `rails g resource User name`––this will create a User model, UsersController, and create a migration for users. Remember that we do not need to say `name:string`. The rails generator will default to use a string:
   - Check your migration files.
+  - Other Generating commands: Try to look up the difference. Look at how much magic it does for you?
+    - rails g model
+    - rails g scaffold
 
 - We need to tell our User that is `has_many` candies:
 
