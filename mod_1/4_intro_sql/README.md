@@ -21,10 +21,14 @@
 ### UPDATE
 Update (table name)
 SET (column) = (new value)
-WHERE (condition); *If no where it changes everything
+WHERE (condition); *If no where it changes everything 
 
 
 UPDATE Customers
 SET CustomerName = 'Vanessa'
 WHERE CustomerID = 5;
+
+
+INSERT INTO Customers (CustomerName, ContactName, Address)
+VALUES ('Vanessa', 'Vanessa', '123 Happy');
 
